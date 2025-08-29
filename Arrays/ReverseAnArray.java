@@ -1,9 +1,10 @@
+import java.util.Arrays;
 public class ReverseAnArray {
     // Using a two-pointer technique to reverse an array
     public static void main(String[] args) {
         int[] array = {1, 2, 3, 4, 5}; // Example array
         reverseArray(array); // Reverse the array
-        System.out.println("Reversed array: " + java.util.Arrays.toString(array)); // Print the reversed array
+        System.out.println("Reversed array: " + Arrays.toString(array));
     }
 
     public static void reverseArray(int[] array) {
